@@ -50,7 +50,14 @@
       max-width: 400px;
     }
 
-    #products, #about, #reviews, #contact {
+    .hero img {
+      margin-top: 2rem;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    section {
       padding: 2rem;
       text-align: center;
     }
@@ -74,6 +81,14 @@
 
     .product-card:hover {
       transform: scale(1.05);
+    }
+
+    .section-img {
+      max-width: 900px;
+      width: 100%;
+      height: auto;
+      margin: 1.5rem 0;
+      border-radius: 8px;
     }
 
     .content-section {
@@ -103,6 +118,12 @@
       text-align: center;
       margin-top: 2rem;
     }
+
+    footer img {
+      margin-top: 1rem;
+      width: 100px;
+      opacity: 0.7;
+    }
   </style>
 </head>
 <body>
@@ -123,10 +144,12 @@
     <h1>Find the Right Parts, the First Time</h1>
     <p>High-quality OEM auto parts for every make and model.</p>
     <input type="text" placeholder="Search by part number or vehicle model..." />
+    <img src="https://via.placeholder.com/1000x400?text=Auto+Parts+Banner" alt="OEM Auto Parts Banner">
   </section>
 
   <section id="products">
     <h2>Popular Categories</h2>
+    <img src="https://via.placeholder.com/900x300?text=Categories+Overview" alt="Categories Overview" class="section-img">
     <div class="product-grid">
       <div class="product-card">Engine Parts</div>
       <div class="product-card">Brakes</div>
@@ -139,6 +162,7 @@
 
   <section id="about">
     <h2>About OEMFitParts</h2>
+    <img src="https://via.placeholder.com/900x350?text=Warehouse+or+Team+Photo" alt="Our Warehouse" class="section-img">
     <div class="content-section">
       <p>
         OEMFitParts is your trusted partner in providing high-quality Original Equipment Manufacturer (OEM) auto parts. We are passionate about helping car owners, repair shops, and auto enthusiasts find the exact parts they need — quickly, affordably, and with confidence.
@@ -163,6 +187,7 @@
 
   <section id="reviews">
     <h2>Customer Reviews</h2>
+    <img src="https://via.placeholder.com/800x300?text=Customer+Satisfaction" alt="Customer Satisfaction" class="section-img">
     <div class="review">
       <h4>John M. – Austin, TX</h4>
       <p>"OEMFitParts is my go-to source for parts. Their search feature is intuitive, and I always get the exact part I need. Fast shipping too!"</p>
@@ -186,6 +211,7 @@
     <p>Email: support@oemfitparts.com</p>
     <p>Phone: (123) 456-7890</p>
     <p>&copy; 2025 OEMFitParts. All rights reserved.</p>
+    <img src="https://via.placeholder.com/100x100?text=Logo" alt="OEM Logo">
   </footer>
 </body>
 </html>
