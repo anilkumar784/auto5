@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - OEMFitParts</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; max-width: 800px; }
+    h1 { text-align: center; }
+    form {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.7rem;
+      font-size: 1rem;
+      width: 100%;
+    }
+    button {
+      padding: 0.7rem;
+      background-color: #111;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <p>Need help or have questions? Use the form below or reach us directly at <a href="mailto:support@oemfitparts.com">support@oemfitparts.com</a>.</p>
+
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p><a href="index.html">← Back to Home</a></p>
+</body>
+</html>
