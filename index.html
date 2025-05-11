@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OEMFitParts - Quality Auto Parts</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OEMFitParts - Quality OEM Auto Parts</title>
   <style>
     * {
       margin: 0;
@@ -50,7 +50,7 @@
       max-width: 400px;
     }
 
-    #products {
+    #products, #about, #reviews, #contact {
       padding: 2rem;
       text-align: center;
     }
@@ -76,6 +76,26 @@
       transform: scale(1.05);
     }
 
+    .content-section {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .review {
+      background-color: #f8f8f8;
+      padding: 1rem;
+      border-radius: 5px;
+      margin: 1rem auto;
+      max-width: 700px;
+      text-align: left;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .review h4 {
+      margin-bottom: 0.5rem;
+    }
+
     footer {
       background-color: #222;
       color: white;
@@ -92,6 +112,8 @@
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -100,7 +122,7 @@
   <section class="hero">
     <h1>Find the Right Parts, the First Time</h1>
     <p>High-quality OEM auto parts for every make and model.</p>
-    <input type="text" placeholder="Search by part number or vehicle model...">
+    <input type="text" placeholder="Search by part number or vehicle model..." />
   </section>
 
   <section id="products">
@@ -110,6 +132,52 @@
       <div class="product-card">Brakes</div>
       <div class="product-card">Suspension</div>
       <div class="product-card">Filters</div>
+      <div class="product-card">Transmission</div>
+      <div class="product-card">Lighting</div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About OEMFitParts</h2>
+    <div class="content-section">
+      <p>
+        OEMFitParts is your trusted partner in providing high-quality Original Equipment Manufacturer (OEM) auto parts. We are passionate about helping car owners, repair shops, and auto enthusiasts find the exact parts they need — quickly, affordably, and with confidence.
+      </p>
+      <p>
+        With an inventory that spans thousands of OEM parts from major manufacturers such as Toyota, Honda, Ford, GM, BMW, and many more, our goal is to be your one-stop source for reliable, factory-fit parts. Whether you're looking for a replacement engine component, brake kit, air filter, or suspension part, you can rest assured we stock only parts that meet or exceed manufacturer standards.
+      </p>
+      <p>
+        At OEMFitParts, we understand that time is critical in the automotive world. That’s why we offer fast shipping, responsive customer service, and a user-friendly website that allows you to search parts by vehicle model, part number, or category. No guesswork, no delays — just the right part, delivered right to your door.
+      </p>
+      <p>
+        Our customers range from DIY car owners to professional mechanics and auto body shops. We also offer bulk order discounts, making us a top choice for commercial fleets and repair centers. Whether you're replacing a worn-out filter or tackling a major rebuild, OEMFitParts gives you the tools you need to get the job done.
+      </p>
+      <p>
+        Your satisfaction is our mission. That’s why every part we sell comes backed by a quality guarantee and our knowledgeable support team. If you ever need help identifying a part, placing an order, or tracking a shipment, we’re just a call or click away.
+      </p>
+      <p>
+        Join thousands of satisfied customers who trust OEMFitParts for their vehicle maintenance and repair needs. Explore our catalog today and discover the difference that quality OEM parts can make.
+      </p>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review">
+      <h4>John M. – Austin, TX</h4>
+      <p>"OEMFitParts is my go-to source for parts. Their search feature is intuitive, and I always get the exact part I need. Fast shipping too!"</p>
+    </div>
+    <div class="review">
+      <h4>Samantha R. – Buffalo, NY</h4>
+      <p>"I run a small repair shop, and these guys have saved me countless hours. Reliable inventory, great prices, and top-tier customer service."</p>
+    </div>
+    <div class="review">
+      <h4>Leo D. – Sacramento, CA</h4>
+      <p>"Ordered a replacement suspension kit for my Camry. Fit perfectly and arrived in two days. OEMFitParts is legit!"</p>
+    </div>
+    <div class="review">
+      <h4>Aisha N. – Miami, FL</h4>
+      <p>"Very happy with the parts and the experience. It’s rare to find a supplier that gets both the tech and the customer service right."</p>
     </div>
   </section>
 
