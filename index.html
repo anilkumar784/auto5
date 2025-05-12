@@ -3,220 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OEMFitParts - Quality OEM Auto Parts</title>
+  <title>OEMFitParts - Genuine Auto Parts for Every Ride</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    header {
-      background-color: #111;
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      padding: 1rem 2rem;
-      align-items: center;
-    }
-
-    .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1rem;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-    }
-
-    .hero {
-      background-color: #f4f4f4;
-      text-align: center;
-      padding: 3rem 1rem;
-    }
-
-    .hero input {
-      margin-top: 1rem;
-      padding: 0.5rem;
-      width: 60%;
-      max-width: 400px;
-    }
-
-    .hero img {
-      margin-top: 2rem;
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    section {
-      padding: 2rem;
-      text-align: center;
-    }
-
-    .product-grid {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      flex-wrap: wrap;
-      margin-top: 1rem;
-    }
-
-    .product-card {
-      background-color: #eee;
-      padding: 1rem;
-      border-radius: 5px;
-      width: 150px;
-      transition: transform 0.2s ease;
-      cursor: pointer;
-    }
-
-    .product-card:hover {
-      transform: scale(1.05);
-    }
-
-    .section-img {
-      max-width: 900px;
-      width: 100%;
-      height: auto;
-      margin: 1.5rem 0;
-      border-radius: 8px;
-    }
-
-    .content-section {
-      max-width: 900px;
-      margin: 0 auto;
-      text-align: left;
-    }
-
-    .review {
-      background-color: #f8f8f8;
-      padding: 1rem;
-      border-radius: 5px;
-      margin: 1rem auto;
-      max-width: 700px;
-      text-align: left;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    .review h4 {
-      margin-bottom: 0.5rem;
-    }
-
-    footer {
-      background-color: #222;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    footer img {
-      margin-top: 1rem;
-      width: 100px;
-      opacity: 0.7;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header, footer { background: #222; color: #fff; padding: 1rem 2rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; }
+    main { padding: 2rem; max-width: 1100px; margin: auto; }
+    section { margin-bottom: 3rem; }
+    h1, h2 { color: #111; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .gallery img { width: 100%; height: auto; border-radius: 4px; }
+    .review { background: #f9f9f9; padding: 1rem; border-left: 4px solid #4CAF50; margin-bottom: 1rem; }
+    footer a { color: #bbb; text-decoration: none; margin: 0 0.5rem; }
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo">OEMFitParts</div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#reviews">Reviews</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section class="hero">
-    <h1>Find the Right Parts, the First Time</h1>
-    <p>High-quality OEM auto parts for every make and model.</p>
-    <input type="text" placeholder="Search by part number or vehicle model..." />
-    <img src="https://via.placeholder.com/1000x400?text=Auto+Parts+Banner" alt="OEM Auto Parts Banner">
+<header>
+  <h1>OEMFitParts</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="cookies.html">Cookies</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Welcome to OEMFitParts</h2>
+    <p>
+      At OEMFitParts, we are passionate about keeping your vehicle performing at its best with genuine, factory-fit auto parts. Whether you're a professional mechanic or a weekend DIYer, our catalog of OEM-certified components ensures you get reliable, exact-fit parts every time. With a focus on customer satisfaction, fast shipping, and unbeatable prices, OEMFitParts is your one-stop destination for automotive excellence.
+    </p>
+    <p>
+      We specialize in genuine OEM replacement parts for a wide range of vehicles including Toyota, Honda, Ford, BMW, and more. From brake pads and filters to radiators and suspension kits — we’ve got you covered.
+    </p>
   </section>
 
-  <section id="products">
-    <h2>Popular Categories</h2>
-    <img src="https://via.placeholder.com/900x300?text=Categories+Overview" alt="Categories Overview" class="section-img">
-    <div class="product-grid">
-      <div class="product-card">Engine Parts</div>
-      <div class="product-card">Brakes</div>
-      <div class="product-card">Suspension</div>
-      <div class="product-card">Filters</div>
-      <div class="product-card">Transmission</div>
-      <div class="product-card">Lighting</div>
+  <section>
+    <h2>Featured Auto Parts</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Brake+Pads" alt="Brake Pads" />
+      <img src="https://via.placeholder.com/300x200?text=Air+Filter" alt="Air Filter" />
+      <img src="https://via.placeholder.com/300x200?text=Oil+Filter" alt="Oil Filter" />
+      <img src="https://via.placeholder.com/300x200?text=Radiator" alt="Radiator" />
+      <img src="https://via.placeholder.com/300x200?text=Alternator" alt="Alternator" />
+      <img src="https://via.placeholder.com/300x200?text=Suspension+Kit" alt="Suspension Kit" />
     </div>
+    <p>
+      Every part listed in our store is carefully inspected, verified for fitment, and backed by manufacturer warranties. We're committed to helping you find the right part quickly and affordably.
+    </p>
   </section>
 
-  <section id="about">
-    <h2>About OEMFitParts</h2>
-    <img src="https://via.placeholder.com/900x350?text=Warehouse+or+Team+Photo" alt="Our Warehouse" class="section-img">
-    <div class="content-section">
-      <p>
-        OEMFitParts is your trusted partner in providing high-quality Original Equipment Manufacturer (OEM) auto parts. We are passionate about helping car owners, repair shops, and auto enthusiasts find the exact parts they need — quickly, affordably, and with confidence.
-      </p>
-      <p>
-        With an inventory that spans thousands of OEM parts from major manufacturers such as Toyota, Honda, Ford, GM, BMW, and many more, our goal is to be your one-stop source for reliable, factory-fit parts. Whether you're looking for a replacement engine component, brake kit, air filter, or suspension part, you can rest assured we stock only parts that meet or exceed manufacturer standards.
-      </p>
-      <p>
-        At OEMFitParts, we understand that time is critical in the automotive world. That’s why we offer fast shipping, responsive customer service, and a user-friendly website that allows you to search parts by vehicle model, part number, or category. No guesswork, no delays — just the right part, delivered right to your door.
-      </p>
-      <p>
-        Our customers range from DIY car owners to professional mechanics and auto body shops. We also offer bulk order discounts, making us a top choice for commercial fleets and repair centers. Whether you're replacing a worn-out filter or tackling a major rebuild, OEMFitParts gives you the tools you need to get the job done.
-      </p>
-      <p>
-        Your satisfaction is our mission. That’s why every part we sell comes backed by a quality guarantee and our knowledgeable support team. If you ever need help identifying a part, placing an order, or tracking a shipment, we’re just a call or click away.
-      </p>
-      <p>
-        Join thousands of satisfied customers who trust OEMFitParts for their vehicle maintenance and repair needs. Explore our catalog today and discover the difference that quality OEM parts can make.
-      </p>
-    </div>
-  </section>
-
-  <section id="reviews">
+  <section>
     <h2>Customer Reviews</h2>
-    <img src="https://via.placeholder.com/800x300?text=Customer+Satisfaction" alt="Customer Satisfaction" class="section-img">
     <div class="review">
-      <h4>John M. – Austin, TX</h4>
-      <p>"OEMFitParts is my go-to source for parts. Their search feature is intuitive, and I always get the exact part I need. Fast shipping too!"</p>
+      <p><strong>Jessica R. - Houston, TX</strong></p>
+      <p>"I ordered brake pads for my Camry and they arrived within 2 days. Installation was a breeze and they fit perfectly!"</p>
     </div>
     <div class="review">
-      <h4>Samantha R. – Buffalo, NY</h4>
-      <p>"I run a small repair shop, and these guys have saved me countless hours. Reliable inventory, great prices, and top-tier customer service."</p>
+      <p><strong>Mike D. - Chicago, IL</strong></p>
+      <p>"Great customer service! They helped me find the right radiator for my F-150. Will be back for more parts soon."</p>
     </div>
     <div class="review">
-      <h4>Leo D. – Sacramento, CA</h4>
-      <p>"Ordered a replacement suspension kit for my Camry. Fit perfectly and arrived in two days. OEMFitParts is legit!"</p>
-    </div>
-    <div class="review">
-      <h4>Aisha N. – Miami, FL</h4>
-      <p>"Very happy with the parts and the experience. It’s rare to find a supplier that gets both the tech and the customer service right."</p>
+      <p><strong>Samantha W. - Atlanta, GA</strong></p>
+      <p>"Superb quality and fast delivery. OEMFitParts is my new go-to for all car parts."</p>
     </div>
   </section>
 
-  <footer id="contact">
-    <h3>Contact Us</h3>
-    <p>Email: support@oemfitparts.com</p>
-    <p>Phone: (123) 456-7890</p>
-    <p>&copy; 2025 OEMFitParts. All rights reserved.</p>
-    <img src="https://via.placeholder.com/100x100?text=Logo" alt="OEM Logo">
-    
-  <p><a href="privacy.html">Privacy Policy</a> | 
-     <a href="terms.html">Terms & Conditions</a> | 
-     <a href="cookies.html">Cookie Policy</a> | 
-     <a href="contact.html">Contact Us</a></p>
+  <section>
+    <h2>Why Choose Us?</h2>
+    <p>
+      Unlike generic aftermarket parts, OEM parts are made by your vehicle’s manufacturer to ensure fit, durability, and optimal performance. When you choose OEMFitParts, you're choosing:
+    </p>
+    <ul>
+      <li>✅ 100% genuine OEM parts</li>
+      <li>✅ Fast and reliable nationwide shipping</li>
+      <li>✅ Competitive pricing</li>
+      <li>✅ Friendly, expert support</li>
+      <li>✅ Easy 30-day returns</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 OEMFitParts. All rights reserved.</p>
+  <p>
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="terms.html">Terms & Conditions</a> |
+    <a href="cookies.html">Cookie Policy</a> |
+    <a href="contact.html">Contact</a>
+  </p>
 </footer>
 
 </body>
